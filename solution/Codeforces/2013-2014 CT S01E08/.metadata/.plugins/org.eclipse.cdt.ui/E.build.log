@@ -1,0 +1,7 @@
+00:14:34 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+
+00:14:35 Build Finished (took 1s.407ms)
+

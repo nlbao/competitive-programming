@@ -1,0 +1,834 @@
+19:57:43 **** Rebuild of configuration Debug for project A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o A.o "..\\A.cpp" 
+..\A.cpp:13:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+g++ -o A.exe A.o 
+19:57:55 **** Incremental Build of configuration Debug for project A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o A.o "..\\A.cpp" 
+g++ -o A.exe A.o 
+Info: Nothing to build for A
+19:58:41 **** Incremental Build of configuration Debug for project A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o A.o "..\\A.cpp" 
+g++ -o A.exe A.o 
+Info: Nothing to build for A
+Info: Nothing to build for A
+Info: Nothing to build for A
+20:03:46 **** Incremental Build of configuration Debug for project A ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o A.o "..\\A.cpp" 
+g++ -o A.exe A.o 
+Info: Nothing to build for A
+Info: Nothing to build for A
+20:20:20 **** Rebuild of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp:13:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\G.cpp: In function 'int main()':
+..\G.cpp:54:7: error: expected ';' before 'int'
+..\G.cpp:55:7: error: 'd' was not declared in this scope
+..\G.cpp:59:25: error: 'oo' was not declared in this scope
+..\G.cpp:63:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+Info: Nothing to build for A
+20:20:39 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp:13:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\G.cpp: In function 'int main()':
+..\G.cpp:59:25: error: 'oo' was not declared in this scope
+..\G.cpp:63:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+Info: Nothing to build for A
+20:20:50 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp:13:0: warning: ignoring #pragma comment  [-Wunknown-pragmas]
+..\G.cpp: In function 'int main()':
+..\G.cpp:64:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+g++ -o G.exe G.o 
+Info: Nothing to build for G
+20:22:19 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp: In function 'int main()':
+..\G.cpp:63:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+g++ -o G.exe G.o 
+Info: Nothing to build for G
+Info: Nothing to build for A
+Info: Nothing to build for G
+Info: Nothing to build for A
+Info: Nothing to build for G
+Info: Nothing to build for A
+Info: Nothing to build for G
+Info: Nothing to build for A
+Info: Nothing to build for G
+Info: Nothing to build for G
+Info: Nothing to build for A
+20:22:46 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp: In function 'int main()':
+..\G.cpp:64:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+g++ -o G.exe G.o 
+Info: Nothing to build for G
+20:23:13 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp: In function 'int main()':
+..\G.cpp:64:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+g++ -o G.exe G.o 
+20:24:08 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp: In function 'int main()':
+..\G.cpp:65:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+g++ -o G.exe G.o 
+20:24:36 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp: In function 'int main()':
+..\G.cpp:64:73: error: invalid operands of types 'int' and '<unresolved overloaded function type>' to binary 'operator<<'
+..\G.cpp:65:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+20:24:47 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+..\G.cpp: In function 'int main()':
+..\G.cpp:65:27: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+g++ -o G.exe G.o 
+20:25:03 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:25:07 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:25:47 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:26:03 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+Info: Nothing to build for G
+Info: Nothing to build for G
+Info: Nothing to build for G
+Info: Nothing to build for G
+20:29:10 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:29:24 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:30:24 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:30:37 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:30:55 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:31:04 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+Info: Nothing to build for G
+20:32:32 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+20:35:48 **** Incremental Build of configuration Debug for project G ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o G.o "..\\G.cpp" 
+g++ -o G.exe G.o 
+Info: Nothing to build for A
+Info: Nothing to build for G
+20:54:39 **** Rebuild of configuration Debug for project I ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o I.o "..\\I.cpp" 
+g++ -o I.exe I.o 
+20:54:54 **** Incremental Build of configuration Debug for project I ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o I.o "..\\I.cpp" 
+g++ -o I.exe I.o 
+20:55:31 **** Incremental Build of configuration Debug for project I ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o I.o "..\\I.cpp" 
+..\I.cpp: In function 'int main()':
+..\I.cpp:55:8: error: 'a' was not declared in this scope
+20:55:43 **** Incremental Build of configuration Debug for project I ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o I.o "..\\I.cpp" 
+g++ -o I.exe I.o 
+Info: Nothing to build for A
+Info: Nothing to build for G
+21:16:24 **** Incremental Build of configuration Debug for project I ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o I.o "..\\I.cpp" 
+g++ -o I.exe I.o 
+Info: Nothing to build for I
+Info: Nothing to build for I
+21:21:32 **** Incremental Build of configuration Debug for project I ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o I.o "..\\I.cpp" 
+g++ -o I.exe I.o 
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:48:55 **** Rebuild of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:51:5: error: reference to 'left' is ambiguous
+..\D.cpp:40:10: error: candidates are: ll left
+In file included from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/ios:43:0,
+                 from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/istream:40,
+                 from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/sstream:39,
+                 from ..\D.cpp:1:
+c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/ios_base.h:918:3: error:                 std::ios_base& std::left(std::ios_base&)
+..\D.cpp:52:5: error: reference to 'right' is ambiguous
+..\D.cpp:40:16: error: candidates are: ll right
+In file included from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/ios:43:0,
+                 from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/istream:40,
+                 from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/sstream:39,
+                 from ..\D.cpp:1:
+c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/ios_base.h:926:3: error:                 std::ios_base& std::right(std::ios_base&)
+..\D.cpp:52:24: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+..\D.cpp:65:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:65:37: warning: too many arguments for format [-Wformat-extra-args]
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:48:58 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:51:5: error: reference to 'left' is ambiguous
+..\D.cpp:40:10: error: candidates are: ll left
+In file included from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/ios:43:0,
+                 from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/istream:40,
+                 from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/sstream:39,
+                 from ..\D.cpp:1:
+c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/ios_base.h:918:3: error:                 std::ios_base& std::left(std::ios_base&)
+..\D.cpp:52:5: error: reference to 'right' is ambiguous
+..\D.cpp:40:16: error: candidates are: ll right
+In file included from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/ios:43:0,
+                 from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/istream:40,
+                 from c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/sstream:39,
+                 from ..\D.cpp:1:
+c:\program files (x86)\tools\codeblocks\mingw\bin\../lib/gcc/mingw32/4.7.1/include/c++/bits/ios_base.h:926:3: error:                 std::ios_base& std::right(std::ios_base&)
+..\D.cpp:52:24: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+..\D.cpp:65:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:65:37: warning: too many arguments for format [-Wformat-extra-args]
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:49:40 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:52:25: warning: suggest parentheses around '-' inside '<<' [-Wparentheses]
+..\D.cpp:65:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:65:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:50:02 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:65:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:65:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+Info: Nothing to build for D
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+Info: Nothing to build for D
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+Info: Nothing to build for D
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for D
+Info: Nothing to build for D
+21:52:01 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:74:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:74:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:53:36 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+21:53:49 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+21:54:05 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:70:9: warning: unused variable 'y' [-Wunused-variable]
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+21:54:12 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:68:9: warning: unused variable 'x' [-Wunused-variable]
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+21:54:13 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:68:9: warning: unused variable 'x' [-Wunused-variable]
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+Info: Nothing to build for A
+21:54:22 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+Info: Nothing to build for G
+Info: Nothing to build for I
+21:54:24 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+21:54:33 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+Info: Nothing to build for A
+21:54:44 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:54:46 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:54:48 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:54:53 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:54:55 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:45:48: error: 'y' was not declared in this scope
+..\D.cpp: In function 'int main()':
+..\D.cpp:80:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:80:37: warning: too many arguments for format [-Wformat-extra-args]
+..\D.cpp: In function 'bool ok(ll)':
+..\D.cpp:46:1: warning: control reaches end of non-void function [-Wreturn-type]
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for A
+21:55:44 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:81:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:81:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for D
+21:55:52 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:81:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:81:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:56:11 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:79:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:79:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:56:18 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:77:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:77:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:56:43 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:57:18 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:57:40 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:57:55 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:58:11 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:76:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:76:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:58:43 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:58:51 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:59:06 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+21:59:40 **** Incremental Build of configuration Debug for project D ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o D.o "..\\D.cpp" 
+..\D.cpp: In function 'int main()':
+..\D.cpp:78:37: warning: unknown conversion type character 'l' in format [-Wformat]
+..\D.cpp:78:37: warning: too many arguments for format [-Wformat-extra-args]
+g++ -o D.exe D.o 
+Info: Nothing to build for A
+Info: Nothing to build for D
+22:09:53 **** Rebuild of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for G
+Info: Nothing to build for I
+Info: Nothing to build for E
+22:11:15 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:11:33 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:11:41 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:12:21 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:12:54 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:13:38 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:14:00 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+22:14:18 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+22:15:57 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:16:21 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:16:41 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:18:02 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:18:54 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+22:19:34 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+22:19:53 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:21:33 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:21:43 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:22:40 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:22:47 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:22:52 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:24:03 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:24:25 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:24:40 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:25:35 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+..\E.cpp: In function 'int main()':
+..\E.cpp:59:7: error: expected ',' or ';' before 'B'
+..\E.cpp:57:14: warning: unused variable 'x' [-Wunused-variable]
+22:25:47 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:26:00 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:26:16 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:27:10 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:27:27 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:28:20 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:34:16 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:34:28 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:34:48 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+22:35:08 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:35:37 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:35:55 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:36:05 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:36:14 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:40:32 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:40:59 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:42:11 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:42:24 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:42:32 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:44:44 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:44:54 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+22:53:28 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:44:01 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:47:35 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:53:53 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+23:54:17 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:54:41 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:54:52 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:56:05 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:56:14 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:56:34 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:56:52 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+23:57:00 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+00:00:37 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+00:01:46 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+00:02:16 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+00:04:25 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+00:04:35 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+00:11:26 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+Info: Nothing to build for E
+00:11:41 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+00:13:28 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 
+00:14:34 **** Incremental Build of configuration Debug for project E ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o E.o "..\\E.cpp" 
+g++ -o E.exe E.o 

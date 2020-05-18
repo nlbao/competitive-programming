@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1412223306 source:d:\dropbox\code\oj\codeforces\2013-2014 samara sau acm icpc quarterfinal qualification contest\sau\d.cpp
+
+1412223840 source:d:\dropbox\code\oj\codeforces\2013-2014 samara sau acm icpc quarterfinal qualification contest\sau\h.cpp
+
+1412224433 source:d:\dropbox\code\oj\codeforces\2013-2014 samara sau acm icpc quarterfinal qualification contest\sau\a.cpp
+
+1412231430 source:d:\dropbox\code\oj\codeforces\2013-2014 samara sau acm icpc quarterfinal qualification contest\sau\main.cpp
+
+1412225769 source:d:\dropbox\code\oj\codeforces\2013-2014 samara sau acm icpc quarterfinal qualification contest\sau\l.cpp
+	<cstdio>
+	<cmath>
+	<cstring>
+	<iostream>
+	<sstream>
+	<algorithm>
+	<utility>
+	<vector>
+	<set>
+	<map>
+	<queue>
+	<deque>
+
+1412236062 source:d:\dropbox\code\oj\codeforces\2013-2014 samara sau acm icpc quarterfinal qualification contest\sau\i.cpp
+
+1412238889 source:d:\dropbox\code\oj\codeforces\2013-2014 samara sau acm icpc quarterfinal qualification contest\sau\f.cpp
+	<bits/stdc++.h>
+
