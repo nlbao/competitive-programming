@@ -1,2 +1,1 @@
-# online-judges
-Solutions for online judges' problems.
+# Competitive Programming's Libraries & Solutions
