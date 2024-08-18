@@ -1,3 +1,6 @@
+.DS_Store
+.vscode/
+
 # Input & Output files
 *.in
 *.inp
