@@ -12,7 +12,11 @@ Solution:
 * Observation 1: f[i] <= f[j] for every i <= j. Because we can just always append the elements [i..j] into the group of i.
 * Observation 2: the smaller i, the bigger cost[j], because cost[j] = s[j]-s[i].
 * --> Thus, the problem becomes: finding the LARGEST i that satisfy (1), which
-can be solved by using a monotonic stack (non-descreasing), plus binary search.
+can be solved by using a monotonic stack (non-descreasing), plus binary search. This is an O(Nlog(N)) solution.
+*
+* Observation 3: because sum[j] is non-decreasing, any i that works for j, is also works for k with k > j.
+Thus, we don't need to do binary search, just maintain a pointer to i, and increasing it overtime.
+This is an O(N) solution.
 */
 
 typedef long long ll;
@@ -32,26 +36,24 @@ public:
         cost[0] = nums[0];
         q[0] = 0;
         int queueSize = 1;
+        int qIdx = 0;
         for (int j = 1; j < n; ++j)
         {
             // initalize variables at j
             s[j] = s[j - 1] + nums[j];
             cost[j] = s[j];
             f[j] = 1; // a group of all elements from 0 to j;
-            // binary search
-            int l = 0, r = queueSize - 1;
-            while (l <= r)
+            // find the suitable i
+            qIdx = min(qIdx, queueSize - 1);
+            while (qIdx < queueSize - 1 && cost[q[qIdx + 1]] + s[q[qIdx + 1]] <= s[j])
             {
-                int mid = (l + r) >> 1;
-                int i = q[mid];
-                if (cost[i] + s[i] <= s[j])
-                {
-                    f[j] = f[i] + 1;
-                    cost[j] = s[j] - s[i];
-                    l = mid + 1;
-                }
-                else
-                    r = mid - 1;
+                ++qIdx;
+            }
+            int i = q[qIdx];
+            if (cost[i] + s[i] <= s[j])
+            {
+                f[j] = f[i] + 1;
+                cost[j] = s[j] - s[i];
             }
             // push j into the queue
             ll cmpValue = cost[j] + s[j];
