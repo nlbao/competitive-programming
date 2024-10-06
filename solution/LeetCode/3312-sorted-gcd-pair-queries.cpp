@@ -2,47 +2,30 @@ typedef long long ll;
 
 class Solution
 {
-private:
-    const int MAX_NUM = 5 * 10000 + 1;
-
 public:
     vector<int> gcdValues(vector<int> &nums, vector<long long> &queries)
     {
         int n = nums.size();
-        vector<int> divisibleCount = vector<int>(MAX_NUM, 0);
+        int MAX_NUM = *max_element(nums.begin(), nums.end()) + 1;
+        vector<int> freq = vector<int>(MAX_NUM, 0);
         for (int i = 0; i < n; ++i)
         {
-            int x = nums[i];
-            for (int y = 1; y <= x; ++y)
-            {
-                int z = x / y;
-                if (y > z)
-                    break;
-                if (x % y != 0)
-                    continue;
-                ++divisibleCount[y];
-                if (y == z)
-                    break; // y == sqrt(x)
-                ++divisibleCount[z];
-            }
+            ++freq[nums[i]];
         }
 
         // f[x] = number of pairs that have gcd() == x
-        // f[x] = (divisibleCount[x] * (divisibleCount[x]-1) / 2) - sum( f[k*x] )
+        // f[x] = (divisibleCount(x) * (divisibleCount(x)-1) / 2) - sum( f[k*x] )
+        // where divisibleCount(x) = sum( freq[x] + freq[2*x] + ... )
         vector<ll> f = vector<ll>(MAX_NUM, 0);
         for (int x = MAX_NUM - 1; x > 0; --x)
         {
-            f[x] = 1LL * divisibleCount[x] * (divisibleCount[x] - 1) / 2;
-            if (f[x] == 0)
-                continue;
-            for (int k = 2; k < MAX_NUM; ++k)
+            ll divisibleCount = freq[x];
+            for (int t = 2 * x; t < MAX_NUM; t += x)
             {
-                int t = k * x;
-                if (t >= MAX_NUM)
-                    break;
+                divisibleCount += freq[t];
                 f[x] -= f[t];
             }
-            assert(f[x] >= 0);
+            f[x] += divisibleCount * (divisibleCount - 1) / 2;
         }
 
         // s[x] = f[1] + f[2] + ... + f[x]
